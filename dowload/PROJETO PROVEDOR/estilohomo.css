@@ -1,0 +1,319 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.topo{
+   
+    height: 150px;
+    background-color: #fff;
+    padding: 35px 0;
+    position: relative;
+}
+
+.topo img{
+    height: 68px;
+    position: absolute;
+    left: 180px;
+    bottom: 50px;
+}
+
+.topo h1{
+    font-size: 32px;
+    color: black;
+    margin: 2px;
+}
+
+.topo p{
+    font-size: 16px;
+    color: #2f86d6;
+    margin: 2px ;
+}
+
+.logo{
+    position: absolute;
+    left: 250px;
+    bottom: 50px;
+   
+}
+
+.links{
+    font-size: 18px;
+    color: #233032;
+    position: absolute;
+    right: 170px;
+    bottom:  70px;
+}
+
+.links a{
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+.banner{
+    width: 100%;
+    height: 500px;
+    background-color: #2f86d6;
+    position: relative;
+    padding: 180px 0;
+
+}
+
+.texto-banner{
+    width: 470px;
+    color: #fff;
+    position: absolute;
+    left: 100px; 
+}
+
+.texto-banner p{
+    font-size: 16px;
+}
+.texto-banner h2{
+    font-size: 28px;
+}
+
+.banner img{
+    width: 40%;
+    position: absolute;
+    right: 120px;
+    top: 45px;    
+}
+
+.anuncio1{
+    width: 100%;
+    height: 120px;
+    background-color: #233032;
+    color: #fff;
+    position: relative;
+}
+
+.textoanuncio1 {
+    width: 600px;
+    position: absolute;   
+    left: 100px;
+    bottom: 25px; 
+}
+
+.anuncio1 a{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    right: 170px;
+    bottom: 35px;
+    background-color: #2f86d6;
+    padding: 10px 30px;
+    border-radius: 3px;
+}
+
+.anuncio1 a img{
+    width: 20px;
+    position: absolute;
+    right: 190px;
+    bottom: 12px;
+
+}
+
+.informacoes{
+    width: 100%;
+    height: 450px;
+    padding: 100px 0;
+    position: relative;
+    text-align: center;
+}
+
+.informacoes h2{
+    max-width: 900px;
+    font-size: 32px;
+    color: black;
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    text-align: center;
+}
+
+.informacoes span{
+    color: #2f86d6;
+}
+
+.informacoes div{
+    width: 340px;
+    position: absolute;
+    top: 200px;
+}
+
+.informacoes img{
+    width: 70px;
+}
+
+.info1{
+    left: 120px;
+}
+
+.info2{
+    left: 500px;
+}
+
+.info3{
+    right: 120px;
+}
+
+.anuncio2{
+    width: 100%;
+    height: 120px;
+    background-color: #2f86d6;
+    color: #fff;
+    position: relative;
+}
+
+.textoanuncio2 {
+    width: 600px;
+    position: absolute;   
+    left: 100px;
+    bottom: 25px; 
+}
+
+.anuncio2 a{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    right: 170px;
+    bottom: 35px;
+    background-color: #233032;
+    padding: 10px 30px;
+    border-radius: 3px;
+}
+
+.anuncio2 a img{
+    width: 20px;
+    position: absolute;
+    right: 190px;
+    bottom: 12px;
+
+}
+
+.planos {
+    width: 100%;
+    height: 750px;
+    position: relative;
+    padding: 100px;
+    background-color: #f1f3f7;
+  
+
+}
+.planos h2{
+    font-size: 32px;
+    position: absolute;
+    left: 165px;
+    top: 30px;
+    text-align: center;
+}
+.planos table{
+    position:absolute;
+    left: 160px;
+    bottom: 50px;
+    margin: auto;
+    box-shadow: 0px 0px 15px 5px  #2f86d6;
+    text-align: center;
+}
+.planos table thead th{
+    text-align: center;
+    padding: 10px 0px;
+    background-color: #fff;
+}
+
+.planos h3{
+    font-size: 18px;
+    color: #000;
+}
+.planos h4{
+    max-width: 150px;
+    margin: auto;
+    padding-top: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #a89f9f;
+}
+
+.planos img{
+    width: 120px;
+}
+
+.planos table tbody td {
+    width: 250px;
+    max-width: 1024px;
+    text-align: center;
+    font-weight: 500;
+    padding: 15px;
+}
+
+.linhaimpar{
+    background-color: #f6f6f6;
+}
+.linhapar {
+    background-color: #fff;
+}
+
+
+
+
+
+
+.rodape{
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+.rodape img{
+    height: 68px;
+    position: absolute;
+    left: 480px;
+    top: 50px;
+}
+
+.rodape h1{
+    font-size: 32px;
+    color: black;
+    margin: 2px;
+}
+
+.rodape p{
+    font-size: 16px;
+    margin: 2px ;
+}
+
+.logorodape{
+    position: absolute;
+    left: 550px;
+    top: 50px;
+}
+
+.textosrodape{
+    text-align: center;
+    color: black;
+    position: absolute;
+    bottom: 25px;
+    left: 350px;
+}
+
+.creditos{
+    width: 100%;
+    background-color: #a6caec;
+    text-align: center;
+    position: relative;
+}
+
+.creditos img{
+    width: 25px;
+    position: absolute;
+    left: 800px;
+    bottom: 5px;
+
+
+}
